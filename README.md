@@ -14,7 +14,7 @@ slice with the largest sum. More precisely, we are looking for two indices *p*, 
 that the total *a*<sub>p</sub> + *a*<sub>*p*+1</sub> + ... + a<sub>q</sub> is maximal.
 We assume that the slice can be empty and its sum equals 0.
 
-    *a*<sub>0</sub> *a*<sub>1</sub> *a*<sub>2</sub> *a*<sub>3</sub> *a*<sub>4</sub> *a*<sub>5</sub> *a*<sub>6</sub>
+*a*<sub>0</sub> *a*<sub>1</sub> *a*<sub>2</sub> *a*<sub>3</sub> *a*<sub>4</sub> *a*<sub>5</sub> *a*<sub>6</sub>
      5 -7  3  5 -2  4 -1
            **********
 In the picture, the slice with the largest sum is highlighted in asterisks. The sum of this slice
