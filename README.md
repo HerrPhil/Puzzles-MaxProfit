@@ -13,7 +13,7 @@ Let's define a problem relating to maximum slices. You are given a sequence of *
 slice with the largest sum. More precisely, we are looking for two indices *p*, *q* such
 that the total *a*<sub>p</sub> + *a*<sub>*p*+1</sub> + ... + a<sub>q</sub> is maximal.
 We assume that the slice can be empty and its sum equals 0.
-<p>
+
 *a*<sub>0</sub> = 5
 
 *a*<sub>1</sub> = -7
@@ -27,7 +27,7 @@ We assume that the slice can be empty and its sum equals 0.
 *a*<sub>5</sub> = 4
 
 *a*<sub>6</sub> = -1
-</p>
+
 In the picture, the slice with the largest sum is highlighted in asterisks. The sum of this slice
 equals 10 and there is no slice with a larger sum. Notice that the slice we are looking for
 may contain negative numbers, as shown above.
