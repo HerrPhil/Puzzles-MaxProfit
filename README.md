@@ -48,3 +48,7 @@ def slow_max_slice(A):
             result = max(result, sum)
     return result
 ```
+
+Analyzing all possible slices requires *O*(*n*<sup>2</sup>) time complexity,
+and for each of them we compute the total in *O*(*n*) time complexity.
+It is the most straight forward solution, however it is far from optimal.
