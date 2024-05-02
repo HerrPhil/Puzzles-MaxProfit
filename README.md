@@ -18,13 +18,13 @@ We assume that the slice can be empty and its sum equals 0.
 
 *a*<sub>1</sub> = -7
 
-*a*<sub>2</sub> = 3
+*a*<sub>2</sub> = 3   ****
 
-*a*<sub>3</sub> = 5
+*a*<sub>3</sub> = 5   ****
 
-*a*<sub>4</sub> = -2
+*a*<sub>4</sub> = -2  ****
 
-*a*<sub>5</sub> = 4
+*a*<sub>5</sub> = 4   ****
 
 *a*<sub>6</sub> = -1
 
