@@ -52,3 +52,23 @@ def slow_max_slice(A):
 Analyzing all possible slices requires *O*(*n*<sup>2</sup>) time complexity,
 and for each of them we compute the total in *O*(*n*) time complexity.
 It is the most straight forward solution, however it is far from optimal.
+
+#### Solution with *O*(*n*<sup>2</sup>)
+
+We can easily improve on our last solution. Assume that we know the sum
+of slice (p, q), s = *a*<sub>*p*</sub> + *a*<sub>*p+1*</sub> + *a*<sub>*q*</sub>.
+The sum of the slice with one more element (*p*, *q + 1*) equals *s* + *a*<sub>*q + 1*</sub>.
+Following this observation, there is no need to compute the sum each time
+from the beginning; we can use the previously calculated sum.
+
+```
+def quadratic_max_slice(A):
+    n = len(A)
+    result = 0
+    for p in xrange(n):
+        sum = 0
+        for q in xrange(p, n):
+            sum += A[q]
+            result = max(result, sum)
+    return result
+```
