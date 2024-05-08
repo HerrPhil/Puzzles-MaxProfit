@@ -102,19 +102,21 @@ See (wikipedia of maximum subarray problem)[https://en.wikipedia.org/wiki/Maximu
 
 Brief timeline of the  maximum subarray problem.
 
-Proposed by Ulf Grenander was an algorithm that was *O*(*n*<sup>3</sup>) in 1977.
-Michael Shamos improved this with a divide-and-conquer algorithm that was *O*(*n*<sup>3</sup>) in the early 1980's.
-Jay Kadane improved this further with the algorithm above that was *O*(*n*) in the early 1980's.
-David Gries obtained the same *O*(*n*)-time algorithm by applying Dijkstra's "standard strategy" in 1982.
-Richard Bird derived it by purely algebraic manipulation of the brute-forc algorithm using Bird-Meertens formalism in 1989.
+- Proposed by Ulf Grenander was an algorithm that was *O*(*n*<sup>3</sup>) in 1977.
+- Michael Shamos improved this with a divide-and-conquer algorithm that was *O*(*n*<sup>3</sup>) in the early 1980's.
+- Jay Kadane improved this further with the algorithm above that was *O*(*n*) in the early 1980's.
+- David Gries obtained the same *O*(*n*)-time algorithm by applying Dijkstra's "standard strategy" in 1982.
+- Richard Bird derived it by purely algebraic manipulation of the brute-forc algorithm using Bird-Meertens formalism in 1989.
 
-Ulf Grenander is a Ph.D. statistician and professor of applied mathematics.
-Michael Shamos is a Ph.D. research fellow and mathematician.
-Jay Kadane is a Ph.D. professor of statistics.
-David Gries is a Ph.D. computer scientist and professor.
-Richard Bird is a Supernumerary Fellow of Computation at Lincoln College, University of Oxford.
+Accomplishments of contributors.
 
-The Codility team finally told on themselves with the following quote.
+- Ulf Grenander is a Ph.D. statistician and professor of applied mathematics.
+- Michael Shamos is a Ph.D. research fellow and mathematician.
+- Jay Kadane is a Ph.D. professor of statistics.
+- David Gries is a Ph.D. computer scientist and professor.
+- Richard Bird is a Supernumerary Fellow of Computation at Lincoln College, University of Oxford.
+
+The Codility team finally told on themselves with the following quote from the lesson task.
 
 "We have used here a very popular and important technique."
 
@@ -126,10 +128,10 @@ However, it is an answer that is the product of years of research and papers by 
 
 There is another layer.
 
-The Kadane Algorithm is one of hundreds of algorithms from the research world
+The Kadane Algorithm is one of **hundreds** of algorithms from the research world
 that are consolidated and learned by followers of competitive programming.
 The competitive programmers do not create the algorithms.
-They are adept at matching existing algorithms to coding problems.
+The competitive programmers are adept at matching existing algorithms to coding problems.
 
 This is when I had the realization of just how unscrupulous companies are that use Codility.
 
@@ -140,9 +142,9 @@ algorithm, then it is obvious they are telling everyone that is neither
 a Ph.D computer scientist nor a competitive programmer to fuck off.
 The probability that everybody else will have an epiphany in the 100-minute
 coding test time and replicate the expected algorithm is very small. This
-is especially for anyone who never heard of this algorithm and does not
-memorize competitive programming algorithms. This is something that is
-simply not used in the workplace.
+is especially true for anyone who has never heard of this algorithm and
+does not memorize competitive programming algorithms. This is something
+that is simply not used in the workplace.
 
 #### Exercising the Kadane Algorithm by hand
 
